@@ -1,0 +1,207 @@
+
+
+local Menu = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Frame_2 = Instance.new("Frame")
+local AimbotTab = Instance.new("TextLabel")
+local ESPTab = Instance.new("TextLabel")
+local EXPLOITBUTTON = Instance.new("TextButton")
+local EXPLOITBUTTON_2 = Instance.new("TextButton")
+local CoolStuffTab = Instance.new("TextLabel")
+local AIMBOTBUTTON = Instance.new("TextButton")
+local AIMBOTBUTTON_2 = Instance.new("TextButton")
+local ESPBUTTON = Instance.new("TextButton")
+local EXPLOITBUTTON_3 = Instance.new("TextButton")
+local EXPLOITBUTTON_4 = Instance.new("TextButton")
+local EXPLOITBUTTON_5 = Instance.new("TextButton")
+local EXPLOITBUTTON_6 = Instance.new("TextButton")
+
+--Properties:
+
+Menu.Name = "Menu"
+Menu.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = Menu
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0562499985, 0, 0.423756033, 0)
+Frame.Size = UDim2.new(0, 438, 0, 34)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(0.00120551407, 0, -0.399529845, 0)
+TextLabel.Size = UDim2.new(0, 287, 0, 47)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Skid Heaven"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 6, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.656456649, 0, -0.399529845, 0)
+TextButton.Size = UDim2.new(0, 151, 0, 47)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "Y to close"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 30.000
+TextButton.TextWrapped = true
+
+ScrollingFrame.Parent = Menu
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 2
+ScrollingFrame.Position = UDim2.new(0.0568246357, 0, 0.47871846, 0)
+ScrollingFrame.Size = UDim2.new(0, 438, 0, 241)
+
+Frame_2.Parent = ScrollingFrame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 2
+Frame_2.Position = UDim2.new(0.157812506, 0, 0.446227938, 0)
+Frame_2.Size = UDim2.new(0, 174, 0, 29)
+
+AimbotTab.Name = "AimbotTab"
+AimbotTab.Parent = Frame_2
+AimbotTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AimbotTab.BorderSizePixel = 0
+AimbotTab.Position = UDim2.new(0.290190428, 0, -16.7315216, 0)
+AimbotTab.Size = UDim2.new(0, 200, 0, 50)
+AimbotTab.Font = Enum.Font.Unknown
+AimbotTab.Text = "Universal Aimbot"
+AimbotTab.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimbotTab.TextSize = 18.000
+
+ESPTab.Name = "ESPTab"
+ESPTab.Parent = Frame_2
+ESPTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPTab.BorderSizePixel = 0
+ESPTab.Position = UDim2.new(0.290190428, 0, -13.6280727, 0)
+ESPTab.Size = UDim2.new(0, 200, 0, 50)
+ESPTab.Font = Enum.Font.Unknown
+ESPTab.Text = "Universal ESP"
+ESPTab.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPTab.TextSize = 18.000
+
+EXPLOITBUTTON.Name = "EXPLOITBUTTON"
+EXPLOITBUTTON.Parent = Frame_2
+EXPLOITBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXPLOITBUTTON.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON.Position = UDim2.new(0.879310369, 0, -6.89655161, 0)
+EXPLOITBUTTON.Size = UDim2.new(0, 175, 0, 35)
+EXPLOITBUTTON.Font = Enum.Font.FredokaOne
+EXPLOITBUTTON.Text = "Toggle Spin Fling"
+EXPLOITBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON.TextSize = 14.000
+
+EXPLOITBUTTON_2.Name = "EXPLOITBUTTON"
+EXPLOITBUTTON_2.Parent = Frame_2
+EXPLOITBUTTON_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXPLOITBUTTON_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_2.Position = UDim2.new(-0.224137932, 0, -6.89655161, 0)
+EXPLOITBUTTON_2.Size = UDim2.new(0, 174, 0, 35)
+EXPLOITBUTTON_2.Font = Enum.Font.FredokaOne
+EXPLOITBUTTON_2.Text = "Toggle Fly"
+EXPLOITBUTTON_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_2.TextSize = 14.000
+
+CoolStuffTab.Name = "CoolStuffTab"
+CoolStuffTab.Parent = Frame_2
+CoolStuffTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoolStuffTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CoolStuffTab.BorderSizePixel = 0
+CoolStuffTab.Position = UDim2.new(0.278696179, 0, -8.90393448, 0)
+CoolStuffTab.Size = UDim2.new(0, 200, 0, 50)
+CoolStuffTab.Font = Enum.Font.Unknown
+CoolStuffTab.Text = "Basic Exploits"
+CoolStuffTab.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolStuffTab.TextSize = 18.000
+
+AIMBOTBUTTON.Name = "AIMBOTBUTTON"
+AIMBOTBUTTON.Parent = Frame_2
+AIMBOTBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AIMBOTBUTTON.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AIMBOTBUTTON.Position = UDim2.new(-0.224137932, 0, -15.3103447, 0)
+AIMBOTBUTTON.Size = UDim2.new(0, 174, 0, 35)
+AIMBOTBUTTON.Font = Enum.Font.FredokaOne
+AIMBOTBUTTON.Text = "Toggle Enable/Disable (FFA)"
+AIMBOTBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+AIMBOTBUTTON.TextSize = 14.000
+
+AIMBOTBUTTON_2.Name = "AIMBOTBUTTON"
+AIMBOTBUTTON_2.Parent = Frame_2
+AIMBOTBUTTON_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AIMBOTBUTTON_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AIMBOTBUTTON_2.Position = UDim2.new(0.879310369, 0, -15.3103447, 0)
+AIMBOTBUTTON_2.Size = UDim2.new(0, 175, 0, 35)
+AIMBOTBUTTON_2.Font = Enum.Font.FredokaOne
+AIMBOTBUTTON_2.Text = "Toggle Enable/Disable(Team)"
+AIMBOTBUTTON_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+AIMBOTBUTTON_2.TextSize = 14.000
+
+ESPBUTTON.Name = "ESPBUTTON"
+ESPBUTTON.Parent = Frame_2
+ESPBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESPBUTTON.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESPBUTTON.Position = UDim2.new(-0.00574712642, 0, -11.5517244, 0)
+ESPBUTTON.Size = UDim2.new(0, 299, 0, 35)
+ESPBUTTON.Font = Enum.Font.FredokaOne
+ESPBUTTON.Text = "Enable/Disable (toggle)"
+ESPBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESPBUTTON.TextSize = 14.000
+
+EXPLOITBUTTON_3.Name = "EXPLOITBUTTON"
+EXPLOITBUTTON_3.Parent = Frame_2
+EXPLOITBUTTON_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXPLOITBUTTON_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_3.Position = UDim2.new(0.879310369, 0, -5.27586222, 0)
+EXPLOITBUTTON_3.Size = UDim2.new(0, 175, 0, 35)
+EXPLOITBUTTON_3.Font = Enum.Font.FredokaOne
+EXPLOITBUTTON_3.Text = "AntiLag"
+EXPLOITBUTTON_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_3.TextSize = 14.000
+
+EXPLOITBUTTON_4.Name = "EXPLOITBUTTON"
+EXPLOITBUTTON_4.Parent = Frame_2
+EXPLOITBUTTON_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXPLOITBUTTON_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_4.Position = UDim2.new(-0.224137932, 0, -3.31034493, 0)
+EXPLOITBUTTON_4.Size = UDim2.new(0, 174, 0, 35)
+EXPLOITBUTTON_4.Font = Enum.Font.FredokaOne
+EXPLOITBUTTON_4.Text = "Day (Client)"
+EXPLOITBUTTON_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_4.TextSize = 14.000
+
+EXPLOITBUTTON_5.Name = "EXPLOITBUTTON"
+EXPLOITBUTTON_5.Parent = Frame_2
+EXPLOITBUTTON_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXPLOITBUTTON_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_5.Position = UDim2.new(0.879310369, 0, -3.31034493, 0)
+EXPLOITBUTTON_5.Size = UDim2.new(0, 175, 0, 35)
+EXPLOITBUTTON_5.Font = Enum.Font.FredokaOne
+EXPLOITBUTTON_5.Text = "Night (Client)"
+EXPLOITBUTTON_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_5.TextSize = 14.000
+
+EXPLOITBUTTON_6.Name = "EXPLOITBUTTON"
+EXPLOITBUTTON_6.Parent = Frame_2
+EXPLOITBUTTON_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EXPLOITBUTTON_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_6.Position = UDim2.new(-0.224137932, 0, -5.27586222, 0)
+EXPLOITBUTTON_6.Size = UDim2.new(0, 174, 0, 35)
+EXPLOITBUTTON_6.Font = Enum.Font.FredokaOne
+EXPLOITBUTTON_6.Text = "Toggle CFrame Fly"
+EXPLOITBUTTON_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+EXPLOITBUTTON_6.TextSize = 14.000
